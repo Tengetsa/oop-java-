@@ -4,7 +4,6 @@ import practical.practical4.model.User;
 import practical.practical4.repository.UserRepository;
 import practical.practical4.service.UserService;
 
-
 import java.util.List;
 
 public class UserServiceImpl implements UserService {

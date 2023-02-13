@@ -8,7 +8,6 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class UserRepository<T extends User> {
     private List<T> users = new ArrayList<>();
     String outputFileName = "Users.txt";

@@ -3,7 +3,6 @@ package practical.practical4.model;
 import java.util.List;
 import java.util.Objects;
 
-
 public class Teacher extends User {
     private List<Student> group;
 

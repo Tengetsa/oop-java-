@@ -6,7 +6,6 @@ import practical.practical4.model.User;
 import practical.practical4.service.UserService;
 import practical.practical4.impl.UserServiceImpl;
 
-
 public class UserController<T extends User> {
 
     private UserService userService = new UserServiceImpl();
