@@ -9,7 +9,7 @@ public class Main {
         maps.put("Сентябрь", 23);
 
         // Инициализация нашего "иммутабельного" класса
-        // Immutable immutable = new Immutable("Май", 7, Map.of("Июнь", 6));
+//         Immutable immutable = new Immutable("Май", 7, Map.of("Июнь", 6));
         Immutable immutable = new Immutable("Май", 7, maps);
 
         // Мы не можем изменять состояние объекта
